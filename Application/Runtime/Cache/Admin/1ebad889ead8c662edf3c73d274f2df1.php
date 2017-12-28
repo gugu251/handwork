@@ -26,7 +26,7 @@
 		<div class="padding border-bottom">
 			<ul class="search" style="padding-left:10px;">
 				<li>
-					<a class="button border-main icon-plus-square-o" href="add.html"> 添加内容</a>
+					<a class="button border-main icon-plus-square-o" href="/admin/news/newsadd"> 添加内容</a>
 				</li>
 				<li>搜索：</li>
 				<li>首页

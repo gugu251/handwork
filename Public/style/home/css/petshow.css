@@ -32,7 +32,7 @@ ul.am-dropdown-content>li>a:focus, ul.am-dropdown-content>li>a:hover { backgroun
 .amz-container { max-width: 1500px; margin: 0 auto;}
 .am-topbar-logo img{ width: 130px; height: 37px; vertical-align: top; margin-top:7px; }
 .am-list, .am-topbar { margin-bottom: 0;}
-.get {background: url(../img/banner_bg.png) top center no-repeat;color: #fff;text-align: center;height: 278px;}
+.get {background: url(../img/banner_bg.jpg) top center no-repeat;color: #fff;text-align: center;height: 278px;}
 .get-title {display: inline-block; padding-top: 25px;}
 .get_font_left { width: 112px; height: 115px;float: left;  }
 .get_font_center { width: auto; height: 115px; margin: 0 20px; line-height: 115px; float: left; font-size: 115px; color: #ff5656; font-family: 'avantgarde_md_btmedium';}

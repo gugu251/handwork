@@ -556,3 +556,53 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
 
+[ 2017-12-27T17:38:03+08:00 ] 127.0.0.1 /admin/news/newsadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+ERR: 模板不存在:./Application/Admin/View/News/newsadd.html
+
+[ 2017-12-27T17:38:05+08:00 ] 127.0.0.1 /admin/news/newscate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+ERR: 模板不存在:./Application/Admin/View/News/newscate.html
+
+[ 2017-12-27T17:38:06+08:00 ] 127.0.0.1 /admin/news/newslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `fn_news` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fn_news`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: iscid D:\GIT\newafree\Application\Runtime\Cache\Admin\1ebad889ead8c662edf3c73d274f2df1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-12-27T17:38:09+08:00 ] 127.0.0.1 /admin/news/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+ERR: 非法操作:add
+

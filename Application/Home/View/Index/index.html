@@ -1,0 +1,57 @@
+<!--头部 start-->
+<include file="Public/header" />
+<!--头部 end-->
+<!--导航 start-->
+<include file="Public/header_nav" />
+<!--导航 end-->
+		<div class="get">
+			<div class="am-g">
+				<div class="am-u-lg-12">
+					<div class="get-title">
+						<div class="get_font_left">
+							<img alt="" src="__PUBLIC__/style/home/img/font_yjy.png"/>
+						</div>
+						<div class="get_font_center" id="banner_num">
+						</div>
+						<div class="get_font_rigth">
+							<img alt="" src="__PUBLIC__/style/home/img/font_zty.png"/>
+						</div>
+					</div>
+					<div class="font_line">
+						<img alt="" src="__PUBLIC__c/style/home/img/font_line.png"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="banner_navbg">
+			<div class="am-g">
+				<div class="banner_nav"><span class="am-icon-caret-right">  筛选：</span>
+					<a href="###">人气最高</a>
+					<a href="###" class="banner_hover">编辑推荐</a>
+					<a href="###">最新萌宠</a>
+					<a href="###">语言涂鸦</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="am-g am-imglist">
+			<ul data-am-widget="gallery" class="am-gallery am-avg-sm-2
+  am-avg-md-3 am-avg-lg-6 am-gallery-default">
+				<volist name="newslist" id="vo">
+				<li>
+					<div class="am-gallery-item am_list_block">
+						<a href="###" class="am_img_bg">
+							<img class="am_img animated" src="{$vo.thumb}" data-original="{$vo.thumb}" alt="{$vo.title}" />
+						</a>
+
+						<div class="am_listimg_info"><span class="am-icon-heart"> {$vo.like_num}</span><span class="am-icon-comments"> {$vo.click_num}</span><span class="am_imglist_time">{$vo.time}</span></div>
+
+					</div>
+					<a class="am_imglist_user"><span class="am_imglist_user_ico"><img src="{$vo.user_avatar}" alt=""></span><span class="am_imglist_user_font">{$vo.user_nickname}</span></a>
+				</li>
+				</volist>
+			</ul>
+		</div>
+<!--底部 start-->
+<include file="Public/footer" />
+<!--底部 end-->
